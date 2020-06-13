@@ -1,0 +1,166 @@
+/*------ CSS RESET-----*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------
+     Custome styles-----*/
+
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #ecf0f1;
+
+}
+header p{
+    text-transform: none;
+}
+
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+  
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+  
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    display: block;
+}
+  
+nav {
+    text-align: center;
+    display: inline;
+}
+  
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+  
+nav li, nav a {
+    display: inline;
+    font-weight: 400;
+    font-size: 12px;
+    padding-right: 20px;
+}
+  
+nav li:last-child, nav a:last-child {
+    padding-right: 0;
+  }
+  
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 20px 0 40px 0;
+  }
+  
+footer, section p {
+    text-transform: none;
+}
+  
+.section-1 p {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+  
+main {
+    font-size: 14px;
+}
+  
+main a {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+  
+hr {
+    margin: 20px 0;
+  }
+  
+
+  
+header {
+    padding: 20px 120px 60px 120px;
+}
+  
+  
+section, footer {
+    padding: 40px 120px;
+}
+  
+header {
+    background-color: #2D3040;
+  }
+  
+.section-1 {
+    background-color: #2d3040;
+    padding-bottom: 150px;
+}
+  
+.section-2 {
+    background-color: #4c5c96;
+}
+  
+.section-3 {
+    background-color: #45558d;
+}
+  
+.section-4 {
+    background-color: #3f4e85;
+}
+  
+footer {
+    background-color: #2d3040;
+    color: gray;
+  }
