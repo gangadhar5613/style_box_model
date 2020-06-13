@@ -1,0 +1,160 @@
+/*---------
+   CSS Reset-------
+   -----*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------Custom Styles-----*/
+body{
+    margin: 0 auto;
+    width: 1400px;
+    text-align-last: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    line-height: 1.5em;
+
+}
+h1{
+    font-size: 60px;
+    padding-top: 30px;
+    line-height: 1.5em;
+
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.box-1{
+    text-align: center;
+    position: relative;
+}
+.box-2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.box-2 p{
+    padding-top: 20px;
+}
+.square{
+    width: 250px;
+    height: 250px;
+    background-color: #dafad4;
+    border: 5px solid black;
+    margin: 50px auto;
+    outline: 20px solid #ed7f80;;
+}
+.background-square{
+    width: 230px;
+    height: 230px;
+    background-color: black;
+    margin: 0 auto;
+    position: absolute;
+}
+.bottom > *{
+    display: inline-block;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 4px;;
+}
+.circle1 {
+    background-color: #dafad4;
+}
+  
+.circle2 {
+    background-color: #add8e6;
+}
+  
+.circle3 {
+    background-color: black;
+}
+  
+.circle4 {
+    background-color: #ed7f80;
+}
+  
+.bottom p {
+    margin-right: 8px;
+}
+  
+.box-cover {
+    width: 600px;
+    border: 1px solid gray;
+    margin: 50px auto;
+    text-align: left;
+}
+  
+.box {
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #cccccc;
+}
+  
+  
+  
+.box1, .box2, .box3 {
+    border: none;
+}
+  
+.box4, .box5, .box6 {
+    border: 1px solid black;
+  
+}
+  
+.box7, .box8, .box9 {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+  
+hr {
+    width: 40%;
+    border: 1px dashed gray;
+    margin-bottom: 50px;
+}
