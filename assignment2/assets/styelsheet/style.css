@@ -39,73 +39,56 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-    border-spacing: 0;
+	border-spacing: 0;
 }
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 500vh;
 }
-body {
-    font-size: 16px;
-    line-height: 1.5;
-    width: 375px;
-    padding: 10px;
+.box{
+    width: 350px;
+    height: 520px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-top: 10px solid blue;
+    border-right: 10px solid red;
+    border-bottom: 10px solid green;
+    border-left: 10px solid violet;
+    outline: 10px solid yellow;
+    margin-left: 40px;
+    margin-top: 40px;
+    background-color: black;
+    color: white;  
+    box-shadow: 0px 20px 0px 20px #812e80, 0px -20px 0px 20px #812e80;
 }
-
-h1 {
-    font-size: 1.6em;
-    padding: 10px;
-    font-weight: 800;
-}
-
-.rectangle {
+.rectangle{
+    width: 200px;
+    height: 150px;
     background-color: brown;
 }
-
-.small-rectangle {
-    width: 150px;
-    height: 100px;
+.rectangle1,.rectangle2,.rectangle3,.rectangle4,.rectangle5{
+    margin: 10px;
+}
+.rectangle2,.rectangle3{
     display: inline-block;
-    margin: 15px;
 }
-
-.large-rectangle {
-    /* width: */
-    outline: 15px solid purple;
-    border-top: 15px solid blue;
-    border-bottom: 15px solid gray;
-    border-left: 15px solid yellow;
-    border-right: 15px solid green;
-    margin-left: 20px;
-    color: white;
-    background-color: red;
+.rectangle4,.rectangle5{
+    display: inline-block;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
     padding: 10px;
+    margin: 10px;
 }
-
-.rectangle1 {
-    display: block;
-    border: 3px solid black;
+.rectangle1{
+    border: 5px black solid;
 }
-
-.rectangle2 {
-    border: 3px double black;
-
+.rectangle2{
+    border: 5px black double;
 }
-
-.rectangle3 {
-    border: 3px dashed black;
-
+.rectangle3{
+    border: 5px black dashed;
 }
-
-.rectangle4 {
-    border: 3px dotted black;
-
+.rectangle4{
+    border: 5px black dotted;
 }
-
-.rectangle5 {
-    border: none;
-}
-
-.upper-rectangle {
-    background-color: blueviolet;
-}
-
