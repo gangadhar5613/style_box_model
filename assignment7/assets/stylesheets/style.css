@@ -43,8 +43,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*------------------
-     Custome styles-----*/
+
+/*------------------Custom styles-----*/
 
 body{
     font-family: sans-serif;
@@ -61,19 +61,19 @@ header p{
 
 
 h1 {
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 900;
 }
   
 h2 {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 900;
 }
   
 a {
     color: white;
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 900;
     display: block;
 }
   
@@ -87,16 +87,18 @@ nav {
     font-weight: 700;
 }
   
-nav li, nav a {
+nav li{
     display: inline;
     font-weight: 400;
     font-size: 12px;
     padding-right: 20px;
 }
-  
-nav li:last-child, nav a:last-child {
-    padding-right: 0;
-  }
+nav a{
+    display: inline;
+    font-weight: 400;
+    font-size: 12px;
+    padding-right: 20px;
+}
   
 img {
     width: 250px;
@@ -104,12 +106,12 @@ img {
     border-radius: 50%;
     padding: 20px 0 40px 0;
   }
-  
-footer, section p {
+
+section p {
     text-transform: none;
 }
   
-.section-1 p {
+.section1 p {
     color: gray;
     text-transform: uppercase;
     font-size: 13px;
@@ -135,7 +137,7 @@ header {
 }
   
   
-section, footer {
+section {
     padding: 40px 120px;
 }
   
@@ -143,24 +145,28 @@ header {
     background-color: #2D3040;
   }
   
-.section-1 {
+.section1 {
     background-color: #2d3040;
     padding-bottom: 150px;
 }
   
-.section-2 {
+.section2 {
     background-color: #4c5c96;
 }
   
-.section-3 {
+.section3 {
     background-color: #45558d;
 }
   
-.section-4 {
+.section4 {
     background-color: #3f4e85;
 }
   
 footer {
     background-color: #2d3040;
     color: gray;
+    padding: 40px 120px;
   }
+nav li:last-child, nav a:last-child {
+    padding-right: 0;
+}
